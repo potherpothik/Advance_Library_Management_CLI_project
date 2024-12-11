@@ -1,42 +1,72 @@
 [
     {
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "isbn": 9780743273565,
-        "publish_year": 1925,
-        "price": 10,
-        "quantity": 5
+        "title": "Data Structures and Algorithms Made Easy",
+        "author": "Narasimha Karumanchi",
+        "isbn": 8569876213928,
+        "publish_year": 2020,
+        "price": 25.99,
+        "quantity": 10,
+        "add_time": "2024-12-12 02:11:26",
+        "update_time": null
     },
     {
-        "title": "1984",
-        "author": "George Orwell",
-        "isbn": 9780451524935,
-        "publish_year": 1949,
-        "price": 15,
-        "quantity": 3
+        "title": "Introduction to Algorithms",
+        "author": "Thomas H. Cormen",
+        "isbn": 6434589014463,
+        "publish_year": 2009,
+        "price": 89.99,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:11:26",
+        "update_time": null
     },
     {
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "isbn": 9780060935467,
-        "publish_year": 1960,
-        "price": 12,
-        "quantity": 7
+        "title": "Data Structures Using C",
+        "author": "Reema Thareja",
+        "isbn": 5651158482686,
+        "publish_year": 2019,
+        "price": 15.99,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:12:12",
+        "update_time": null
     },
     {
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "isbn": 9780141439518,
-        "publish_year": 1813,
-        "price": 8,
-        "quantity": 3
+        "title": "Algorithms",
+        "author": "Robert Sedgewick, Kevin Wayne",
+        "isbn": 7014936000973,
+        "publish_year": 2011,
+        "price": 99.99,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:15:09",
+        "update_time": null
     },
     {
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "isbn": 9780316769488,
-        "publish_year": 1951,
-        "price": 11,
-        "quantity": 6
+        "title": "Data Structures and Algorithms in Java",
+        "author": "Michael T. Goodrich",
+        "isbn": 7120000716375,
+        "publish_year": 2014,
+        "price": 85.0,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:15:48",
+        "update_time": null
+    },
+    {
+        "title": "Data Structures and Network Algorithms",
+        "author": "Robert Tarjan",
+        "isbn": 9152176827939,
+        "publish_year": 1985,
+        "price": 45.0,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:16:29",
+        "update_time": null
+    },
+    {
+        "title": "Data Structures and Algorithms",
+        "author": "Alfred V. Aho",
+        "isbn": 3778081094316,
+        "publish_year": 1983,
+        "price": 60.0,
+        "quantity": 20,
+        "add_time": "2024-12-12 02:17:18",
+        "update_time": null
     }
 ]

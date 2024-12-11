@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def book_remove(all_books):
     try:
         isbn = int(input("Enter the ISBN of the book you want to remove: "))
@@ -7,8 +9,8 @@ def book_remove(all_books):
 
     for book in all_books:
         if book["isbn"] == isbn:
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Book '{book['title']}' removed successfully.")
             all_books.remove(book)
-            print("Book removed successfully!")
             return all_books
 
     print("Book not found.")

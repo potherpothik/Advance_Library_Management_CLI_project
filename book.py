@@ -13,27 +13,16 @@ Requirements:
 """
 
 import view_all_books
+from save_all_books import save_all_books
+import load_books
 import add_books
 import book_update
 import book_remove
 import lend_book
 import return_book
+from datetime import datetime
 
-def load_books():
-    import json
-    try:
-        with open("all_books.json", "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        print("No saved books found. Starting with an empty library.")
-        return []
-
-def save_all_books(all_books):
-    import json
-    with open("all_books.json", "w") as file:
-        json.dump(all_books, file, indent=4)
-
-all_books = load_books()
+all_books = load_books.load_books()
 
 while True:
     print("Welcome to Library Management System")
@@ -46,26 +35,33 @@ while True:
     print("6. Return Book")
 
     menu = input("Select an option: ")
+    action_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     if menu == "0":
-        print("Thanks for using Library Management System")
+        print(f"[{action_time}] Thanks for using Library Management System")
         break
     elif menu == "1":
         all_books = add_books.add_books(all_books)
         save_all_books(all_books)
+        print(f"[{action_time}] Book added successfully.")
     elif menu == "2":
         view_all_books.view_all_books(all_books)
+        print(f"[{action_time}] Displayed all books.")
     elif menu == "3":
         all_books = book_update.book_update(all_books)
         save_all_books(all_books)
+        print(f"[{action_time}] Book updated successfully.")
     elif menu == "4":
         all_books = book_remove.book_remove(all_books)
         save_all_books(all_books)
+        print(f"[{action_time}] Book removed successfully.")
     elif menu == "5":
         all_books = lend_book.lend_book(all_books)
         save_all_books(all_books)
+        print(f"[{action_time}] Book lent successfully.")
     elif menu == "6":
         all_books = return_book.return_book(all_books)
         save_all_books(all_books)
+        print(f"[{action_time}] Book returned successfully.")
     else:
-        print("Invalid option. Please try again.")
+        print(f"[{action_time}] Invalid option. Please try again.")
