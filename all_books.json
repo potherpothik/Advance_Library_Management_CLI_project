@@ -1,0 +1,42 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": 9780743273565,
+        "publish_year": 1925,
+        "price": 10,
+        "quantity": 5
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": 9780451524935,
+        "publish_year": 1949,
+        "price": 15,
+        "quantity": 3
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": 9780060935467,
+        "publish_year": 1960,
+        "price": 12,
+        "quantity": 7
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": 9780141439518,
+        "publish_year": 1813,
+        "price": 8,
+        "quantity": 3
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "isbn": 9780316769488,
+        "publish_year": 1951,
+        "price": 11,
+        "quantity": 6
+    }
+]
